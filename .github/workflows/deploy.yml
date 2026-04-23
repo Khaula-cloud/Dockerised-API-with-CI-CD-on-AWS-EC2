@@ -32,6 +32,6 @@ jobs:
             docker run -d \
               --name todo-api-container \
               --restart always \
-              -p 3000:3000 \
+              -p 4000:4000 \
               todo-api
           EOF
