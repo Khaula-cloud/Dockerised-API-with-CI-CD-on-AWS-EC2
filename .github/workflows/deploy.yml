@@ -22,7 +22,7 @@ jobs:
             cd /home/ubuntu
             git clone https://github.com/Khaula-cloud/Dockerised-API-with-CI-CD-on-AWS-EC2.git || \
               (cd todo-api && git pull)
-            cd todo-api
+            cd Dockerised-API-with-CI-CD-on-AWS-EC2
             docker build -t todo-api .
             docker stop todo-api-container || true
             docker rm todo-api-container || true
