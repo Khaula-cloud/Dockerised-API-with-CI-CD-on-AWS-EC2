@@ -1,7 +1,7 @@
 
 # Dockerised To-Do API with CI/CD on AWS EC2
     Foundation of this project is — infra + automation
-A simple Node.js REST API (to-do list — just a todo route). You Dockerise it, push it to GitHub, connect a GitHub Actions workflow that auto-deploys to an EC2 instance on every push, with NGINX sitting in front as a reverse proxy.
+A simple Node.js REST API (to-do list — just a todo route). I Dockerise it, push it to GitHub, connect a GitHub Actions workflow that auto-deploys to an EC2 instance on every push, with NGINX sitting in front as a reverse proxy.
 ## Tech Stack
 
 This project used following tech stack:
